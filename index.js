@@ -4,7 +4,8 @@ const port = 3100;
 
 
 
-app.get('/', (req, res) => res.sendFile('/Users/danielSauthier/Desktop/sideProjects/node-app/start.html'));
+
+app.get('/', (req, res) => res.sendFile('/home/ec2-user/node-demo/start.html'));
 
 
 
